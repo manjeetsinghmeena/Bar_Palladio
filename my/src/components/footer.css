@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(136, 204, 224, 0.877);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footerText-left{
+    float: left;
+    margin-left: 20px;
+}
+
+.footerText-center{
+    align-items:center;
+    color:#eee8de;
+    font-size: 1rem;
+}
+
+.footerText-right{
+    margin-right: 20px;
+}
+
+.copyright{
+    font-size: 15px;
+    color: #eee8de;
+    margin-top: 10px;
+}

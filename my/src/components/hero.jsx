@@ -4,7 +4,8 @@ function Hero(){
         <section className="hero">
             <div className="heroText">
                 <h1>Bar Palladio</h1>
-                <p>Every cup is a masterpiece, crafted with passion and precision.</p>
+                <p>Where Mughal splendour meets the Italian table
+within the gardens of Hotel Narain Niwas</p>
             </div>
         </section>
     )
