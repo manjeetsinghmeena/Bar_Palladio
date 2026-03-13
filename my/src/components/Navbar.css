@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    padding-right: 30px;
+    margin: 25px;
+    background: transparent;
+    border-radius: 30px;
+    color: antiquewhite;
+    backdrop-filter: blur(20px);
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+}
+li{
+    font-size: 20px;
+}
