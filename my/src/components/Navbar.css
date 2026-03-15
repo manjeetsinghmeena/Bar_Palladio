@@ -22,7 +22,11 @@
     gap: 30px;
 }
 li{
-    font-size: 25px;
+    font-size: 23px;
+}
+li:hover{
+    color: #759FBB ;
+    transition: 0.3s;
 }
 a{
     text-decoration: none;

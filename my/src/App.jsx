@@ -6,12 +6,14 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/hero'
 import Footer from './components/footer'
+import AboutUs from './components/aboutUS'
 
 function App() {
   return(
   <div>
     <Navbar/>
     <Hero/>
+    <AboutUs/>
     <Footer/>
   </div>
   )

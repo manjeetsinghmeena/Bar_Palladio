@@ -8,7 +8,7 @@ function Hero(){
             <p >— Condé Nast Traveller</p>
             </div>  
             <div className="title">
-                <h1 className="B">Bar</h1>
+                <h2 className="B">Bar</h2>
                 <h1 className="P">Palladio</h1>
                 <h3 className="J">Jaipur · Est. 2016</h3>
             </div>
