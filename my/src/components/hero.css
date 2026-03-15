@@ -1,42 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 .hero{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #DCE8F0;
+    padding-top: 20px;
 }
-.heroText{
-    color: #3b649a;
-    font-size: 40px;
-    padding: 30px;
-    font-weight: bold;
-
+.logo{
+    width: auto;
+    height: 200px;
+}
+.quote{
     display: flex;
     flex-direction: column;
-    align-items: center;    
-}
-p{
-    font-size: 25px;
-    color: #3b649a;
+    min-height: 140px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #759FBB ;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding: 25px;
     margin-top: 20px;
 }
-.hero::after{
-   background-color: #DCE8F0;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100vh;
-    z-index: -2;
+.para{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    text-align: center;
+    width: 45%;
+    align-self: center;
+    margin:auto;
 }
-.hero::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+.title{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #1E3A5F ;
+    text-align: center;
     width: 100%;
-    min-height: 100vh;
-    z-index: -1;
-    background-color: #DCE8F0;
-}   
+    margin-top: 20px;
+}

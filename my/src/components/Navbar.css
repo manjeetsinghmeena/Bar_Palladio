@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
+    min-height: 47px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
     padding: 13px;
     padding-right: 30px;
     margin: 0 auto;
     background: transparent;
     color: #1E3A5F ;
-    background-color: rgba(235, 241, 243, 0.877);
+    background-color: #ffffff;
 }
 .navbar ul{
     display: flex;
