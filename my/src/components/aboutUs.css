@@ -1,0 +1,24 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #DCE8F0;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    background-color: #759FBB;
+    gap: 20px;
+}
+.para2{
+    color: #4574B2;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
