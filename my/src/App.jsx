@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/hero'
 import Footer from './components/footer'
 import AboutUs from './components/aboutUS'
+import Carousel from './components/carousel'
 
 function App() {
   return(
@@ -14,6 +15,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <AboutUs/>
+    <Carousel/>
     <Footer/>
   </div>
   )

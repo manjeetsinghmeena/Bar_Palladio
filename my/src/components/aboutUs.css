@@ -3,7 +3,7 @@
 .hehe{
    margin: 25px;
     max-height: 700px;
-    max-width: auto;
+    width: auto;
 }
 .about{
     display: flex;
@@ -11,6 +11,7 @@
     align-items: left;
     justify-content: space-between;
     padding: 20px;
+    overflow-y: hidden;
     margin-left: 100px;
     margin-right: 200px;
 }
@@ -49,10 +50,9 @@
 }
 .para2{
     color: #4574B2;
-    
     font-size: 30px;
     font-style: italic;
-    width: 70%;
+    max-width: 70%;
     padding-top: 6px;
     letter-spacing: 5%;
 }
