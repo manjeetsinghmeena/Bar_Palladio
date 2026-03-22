@@ -3,7 +3,7 @@ function Carousel() {
     return (
         <div className="carousel">
             <div className="menu-text">FROM THE KITCHEN</div>
-            <div className="carousel-content">
+            <div className="carousel-content" >
                 <div className="carousel-item">
                     <img src="/menu1.jpg" alt="Food 1" className="menu" />
                     <img src="/menu2.jpg" alt="Food 2" className="menu" />
