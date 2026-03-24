@@ -16,16 +16,18 @@ footer{
 .footerText-left{
     float:left;
     margin-left: 20px;
+    font-size: 1.5rem;
 }
 
 .footerText-center{
     align-items:center;
     color:#eee8de;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .footerText-right{
     margin-right: 20px;
+    font-size: 1.5rem;
 }
 
 .copyright{

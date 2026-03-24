@@ -67,7 +67,7 @@
     color: #4574B2;
  }
  .divider{
-    width: 30%;
+    min-width: 17%;
     height: 1.4px;
     background-color: #1E3A5F ;
     margin-top: 20px;

@@ -22,7 +22,7 @@
     margin: 20px 0;
     width: max-content;
     overflow: hidden;
-    animation: scroll 80s linear infinite;
+    animation: scroll 77s linear infinite;
 }
 @keyframes scroll {
     0% {
