@@ -3,8 +3,8 @@ function Navbar(){
     return (
         <div className="navbar">
             <ul>
-                <li><a>ABOUT</a></li>
-                <li><a>MENU</a></li>
+                <li><a href="#aboutUs">ABOUT</a></li>
+                <li><a href="#menu">MENU</a></li>
                 <li><a>VILLA</a></li>
                 <li><a>SHOP</a></li>
                 <li><a>JOURNEYS</a></li>

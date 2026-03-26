@@ -1,7 +1,7 @@
 import "./carousel.css";
 function Carousel() {
     return (
-        <div className="carousel">
+        <div className="carousel" id="menu">
             <div className="menu-text">FROM THE KITCHEN</div>
             <div className="carousel-content" >
                 <div className="carousel-item">

@@ -1,7 +1,7 @@
 import "./aboutUs.css";
 function AboutUs() {
     return (
-        <div className="about">
+        <div className="about" id="aboutUs">
             <div className="content">
               <img src="/bar_palladio.jpg" alt="Bar Palladio" className="hehe" />
             <div className="description">

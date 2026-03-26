@@ -8,7 +8,7 @@
     min-height: 100vh;
     width: 100%;
     background-color: #DCE8F0;
-    padding-top: 20px;
+    padding-top: 90px;
 }
 .logo{
     width: auto;
@@ -53,6 +53,7 @@
     font-family: 'Cormorant', serif;
     font-size: 75px;
     font-weight: 500;
+    transform: translateY(20px);
 }
 .P{
     font-family: 'Grey Qo', serif;
