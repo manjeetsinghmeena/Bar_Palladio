@@ -8,7 +8,7 @@ function Footer(){
                     <p>123 Main Street, Jaipur</p>  
                 </div>
                 <div className="footerText-center">
-                    <p class="logo">Bar Palladio</p>
+                    <p class="f">Bar Palladio</p>
                     <p class ="tagline">Jaipur · Est. 2016</p>
                 </div>
                 <div className="footerText-right">

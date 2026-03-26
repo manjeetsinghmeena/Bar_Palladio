@@ -9,29 +9,46 @@ footer{
 
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
+    height: auto;
+    padding-bottom: 20px;
 }
 
 .footerText-left{
     float:left;
     margin-left: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    height: auto;
 }
 
 .footerText-center{
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     color:#eee8de;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    height: auto;
 }
 
 .footerText-right{
     margin-right: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    height: auto;
 }
 
 .copyright{
-    font-size: 15px;
+    font-size: 1rem;
     color: #eee8de;
     margin-top: 10px;
+}
+@media (max-width: 768px) {
+    .footer{
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+    }
+    .footerText-left, .footerText-right{
+        margin: 0;
+    }
 }
