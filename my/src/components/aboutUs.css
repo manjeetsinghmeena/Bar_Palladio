@@ -56,3 +56,33 @@
     padding-top: 6px;
     letter-spacing: 5%;
 }
+@media (max-width: 768px) {
+    .about{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .content{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .interior{
+        font-size: 20px;
+        letter-spacing: 20%;
+        padding-left: 25px;
+    }
+    .pi{
+        font-size: 40px;
+        padding-left: 25px;
+    }
+    .ii{
+        font-size: 40px;
+        padding-left: 25px;
+    }
+    .para2{
+        font-size: 20px;
+        max-width: 100%;
+        letter-spacing: 0%;
+        padding-left: 25px;
+        padding-bottom: 25px;
+    }
+}
